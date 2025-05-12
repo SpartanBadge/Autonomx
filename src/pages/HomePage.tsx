@@ -240,53 +240,57 @@ function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-4 border-t border-white/10 fade-in">
-        <div className="container mx-auto">
-          <div className="flex flex-wrap justify-between items-start gap-8">
-            <div className="w-full md:w-auto">
-              <h3 className="text-xl font-bold mb-2">AutonomX</h3>
-              <p className="text-sm text-gray-400">Intelligent Systems for Exponential Teams</p>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-2">Products</h4>
-              <ul className="text-sm space-y-1 text-gray-400">
-                <li><a href="/ai-phone-callers" className="hover-glow">AI Phone Callers</a></li>
-                <li><a href="/ai-agents" className="hover-glow">AI Agents</a></li>
-                <li><a href="/website-app-creation" className="hover-glow">Website & Mobile App Creation</a></li>
-                <li><a href="/social-media-outreach" className="hover-glow">Social Media & Client Outreach</a></li>
-                <li><a href="/visual-content-pack" className="hover-glow">Visual Content Pack</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-2">Strategy Calls</h4>
-              <ul className="text-sm space-y-1 text-gray-400">
-                <li><a href="strategy" className="hover-glow">How it works?</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-2">Scale Fast</h4>
-              <ul className="text-sm space-y-1 text-gray-400">
-                <li><a href="scale" className="hover-glow">How we can help your business?</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-2">Prices</h4>
-              <ul className="text-sm space-y-1 text-gray-400">
-                <li><a href="/pricing" className="hover-glow">View Pricing</a></li>
-              </ul>
-            </div>
-            <div>
-              <h4 className="font-semibold mb-2">Contact Us</h4>
-              <ul className="text-sm space-y-1 text-gray-400">
-                <li><a href="/contact-us" className="hover-glow">Hungary</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="mt-8 pt-4 border-t border-white/10 text-center text-sm text-gray-400">
-            <p>{t('footer.copyright')}</p>
-          </div>
-        </div>
-      </footer>
+   import { Link } from 'react-router-dom';
+
+{/* Footer */}
+<footer className="py-8 px-4 border-t border-white/10 fade-in">
+  <div className="container mx-auto">
+    <div className="flex flex-wrap justify-between items-start gap-8">
+      <div className="w-full md:w-auto">
+        <h3 className="text-xl font-bold mb-2">AutonomX</h3>
+        <p className="text-sm text-gray-400">Intelligent Systems for Exponential Teams</p>
+      </div>
+      <div>
+        <h4 className="font-semibold mb-2">Products</h4>
+        <ul className="text-sm space-y-1 text-gray-400">
+          <li><Link to="/ai-phone-callers" className="hover-glow">AI Phone Callers</Link></li>
+          <li><Link to="/ai-agents" className="hover-glow">AI Agents</Link></li>
+          <li><Link to="/website-app-creation" className="hover-glow">Website & Mobile App Creation</Link></li>
+          <li><Link to="/social-media-outreach" className="hover-glow">Social Media & Client Outreach</Link></li>
+          <li><Link to="/visual-content-pack" className="hover-glow">Visual Content Pack</Link></li>
+        </ul>
+      </div>
+      <div>
+        <h4 className="font-semibold mb-2">Strategy Calls</h4>
+        <ul className="text-sm space-y-1 text-gray-400">
+          <li><Link to="/strategy" className="hover-glow">How it works?</Link></li>
+        </ul>
+      </div>
+      <div>
+        <h4 className="font-semibold mb-2">Scale Fast</h4>
+        <ul className="text-sm space-y-1 text-gray-400">
+          <li><Link to="/scale" className="hover-glow">How we can help your business?</Link></li>
+        </ul>
+      </div>
+      <div>
+        <h4 className="font-semibold mb-2">Prices</h4>
+        <ul className="text-sm space-y-1 text-gray-400">
+          <li><Link to="/pricing" className="hover-glow">View Pricing</Link></li>
+        </ul>
+      </div>
+      <div>
+        <h4 className="font-semibold mb-2">Contact Us</h4>
+        <ul className="text-sm space-y-1 text-gray-400">
+          <li><Link to="/contact-us" className="hover-glow">Hungary</Link></li>
+        </ul>
+      </div>
+    </div>
+    <div className="mt-8 pt-4 border-t border-white/10 text-center text-sm text-gray-400">
+      <p>{t('footer.copyright')}</p>
+    </div>
+  </div>
+</footer>
+
     </div>
   );
 }
