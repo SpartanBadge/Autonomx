@@ -239,7 +239,8 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Footer */
+      {/* Footer */}
+
 
 {/* Footer */}
 <footer className="py-8 px-4 border-t border-white/10 fade-in">
