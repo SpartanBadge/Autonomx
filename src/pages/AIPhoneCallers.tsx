@@ -153,10 +153,10 @@ const AIPhoneCallers = () => {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="relative"
+              className="relative w-full md:w-auto"
             >
               <Phone className="w-32 h-32 text-primary-glow absolute -top-4 -left-4 opacity-20" />
-              <div className="rounded-xl border border-primary-glow/20 p-8 backdrop-blur-sm">
+              <div className="rounded-xl border border-primary-glow/20 p-4 md:p-8 backdrop-blur-sm">
                 <PlayCircle className="w-16 h-16 text-primary-glow mb-4" />
                 <div className="space-y-4">
                   <div>
@@ -168,7 +168,7 @@ const AIPhoneCallers = () => {
                     <label htmlFor="phoneNumber" className="block text-sm font-medium">
                       Enter your phone number for a demo call from our Dental Assistant
                     </label>
-                    <div className="flex gap-2">
+                    <div className="flex flex-col md:flex-row gap-2">
                       <input
                         type="tel"
                         id="phoneNumber"
