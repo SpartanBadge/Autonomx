@@ -153,19 +153,19 @@ const AIPhoneCallers = () => {
               initial={{ opacity: 0, x: 20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="relative w-full md:w-auto"
+              className="relative w-full max-w-[100vw-2rem] md:w-auto px-2 md:px-0"
             >
               <Phone className="w-32 h-32 text-primary-glow absolute -top-4 -left-4 opacity-20" />
-              <div className="rounded-xl border border-primary-glow/20 p-4 md:p-8 backdrop-blur-sm">
+              <div className="rounded-xl border border-primary-glow/20 p-3 md:p-8 backdrop-blur-sm">
                 <PlayCircle className="w-16 h-16 text-primary-glow mb-4" />
                 <div className="space-y-4">
                   <div>
-                    <p className="text-lg font-semibold">Request a Demo Call</p>
-                    <p className="text-gray-400 mb-4">Experience our AI in action</p>
+                    <p className="text-base md:text-lg font-semibold">Request a Demo Call</p>
+                    <p className="text-sm md:text-base text-gray-400 mb-2 md:mb-4">Experience our AI in action</p>
                   </div>
                   
                   <div className="space-y-2">
-                    <label htmlFor="phoneNumber" className="block text-sm font-medium">
+                    <label htmlFor="phoneNumber" className="block text-xs md:text-sm font-medium">
                       Enter your phone number for a demo call from our Dental Assistant
                     </label>
                     <div className="flex flex-col md:flex-row gap-2">
@@ -175,12 +175,12 @@ const AIPhoneCallers = () => {
                         value={phoneNumber}
                         onChange={(e) => setPhoneNumber(e.target.value)}
                         placeholder="+1234567890"
-                        className="flex-1 px-4 py-2 rounded-lg bg-white/10 border border-white/20 focus:border-primary-glow text-white"
+                        className="w-full md:flex-1 px-3 py-2 text-sm md:text-base rounded-lg bg-white/10 border border-white/20 focus:border-primary-glow text-white"
                       />
                       <Button
                         variant="secondary"
                         onClick={handleDemoCall}
-                        className="whitespace-nowrap"
+                        className="w-full md:w-auto whitespace-nowrap text-sm md:text-base py-2 md:py-3"
                         disabled={isSubmitting}
                       >
                         <PhoneCall className="w-4 h-4 mr-2" />
@@ -188,7 +188,7 @@ const AIPhoneCallers = () => {
                       </Button>
                     </div>
                     {error && (
-                      <p className="text-red-500 text-sm">{error}</p>
+                      <p className="text-red-500 text-xs md:text-sm">{error}</p>
                     )}
                   </div>
                 </div>

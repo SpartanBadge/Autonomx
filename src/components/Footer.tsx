@@ -17,7 +17,6 @@ export const Footer = () => {
           <div>
             <h4 className="font-semibold mb-2">Products</h4>
             <ul className="text-sm space-y-1 text-gray-400">
-              <li><a href="/visual-content-pack" className="hover-glow">Visual Content Pack</a></li>
               <li><button onClick={() => navigate('/ai-phone-callers')} className="hover-glow">AI Phone Callers</button></li>
               <li><button onClick={() => navigate('/ai-agents')} className="hover-glow">AI Agents</button></li>
               <li><button onClick={() => navigate('/website-app-creation')} className="hover-glow">Website & Mobile App Creation</button></li>
