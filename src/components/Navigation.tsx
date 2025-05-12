@@ -203,7 +203,10 @@ onClick={() => navigate('/')}
           </button>
           <Button 
             variant="secondary"
-            onClick={() => navigate('/contact-us')}
+            onClick={() => {
+              setIsMenuOpen(false);
+              navigate('/contact');
+            }}
             className="w-full"
           >
             BOOK A CALL
