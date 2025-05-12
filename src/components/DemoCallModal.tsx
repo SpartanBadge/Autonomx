@@ -37,7 +37,7 @@ export const DemoCallModal = ({ isOpen, onClose }: DemoCallModalProps) => {
             <h2 className="text-2xl font-bold mb-4">{t('demo.success')}</h2>
             
             <p className="text-lg text-gray-300 mb-6">
-              Thank you for trying our AI Assistant! We'll be calling you shortly for your demo.
+              Thank you for trying our AI Assistant! Our dental office assistant will call you shortly. .
             </p>
             
             <div className="space-y-4 w-full">
