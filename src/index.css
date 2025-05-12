@@ -42,6 +42,13 @@ spline-viewer {
   position: fixed;
   pointer-events: none;
   z-index: 999999;
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .cursor {
+    display: block;
+  }
 }
 
 /* Hide cursor and show pointer image when hovering clickable elements */
@@ -49,6 +56,11 @@ button, a, [role="button"], input[type="submit"] {
   cursor: none;
 }
 
+@media (max-width: 767px) {
+  button, a, [role="button"], input[type="submit"] {
+    cursor: pointer;
+  }
+}
 button:hover, a:hover, [role="button"]:hover, input[type="submit"]:hover {
   cursor: none;
 }

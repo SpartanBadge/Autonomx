@@ -177,17 +177,33 @@ onClick={() => navigate('/')}
           <button 
             onClick={() => {
               setIsMenuOpen(false);
-              navigate('/scale');
+              navigate('/contact-us');
             }}
             className="nav-link glitch-hover text-left w-full"
           >
             SCALE FAST
           </button>
-          <a href="/pricing" className="nav-link glitch-hover">PRICES</a>
-          <a href="/contact-us" className="nav-link glitch-hover">CONTACT US</a>
+          <button 
+            onClick={() => {
+              setIsMenuOpen(false);
+              navigate('/pricing');
+            }}
+            className="nav-link glitch-hover text-left w-full"
+          >
+            PRICES
+          </button>
+          <button 
+            onClick={() => {
+              setIsMenuOpen(false);
+              navigate('/contact-us');
+            }}
+            className="nav-link glitch-hover text-left w-full"
+          >
+            CONTACT US
+          </button>
           <Button 
             variant="secondary"
-            onClick={() => navigate('/contact')}
+            onClick={() => navigate('/contact-us')}
             className="w-full"
           >
             BOOK A CALL
