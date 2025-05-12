@@ -239,8 +239,7 @@ function HomePage() {
         </div>
       </section>
 
-      {/* Footer */}
-   import { Link } from 'react-router-dom';
+      {/* Footer */
 
 {/* Footer */}
 <footer className="py-8 px-4 border-t border-white/10 fade-in">
