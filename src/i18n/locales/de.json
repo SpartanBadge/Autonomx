@@ -1,0 +1,61 @@
+{
+  "hero": {
+    "title": "Automatisieren Sie Kundensupport, CRM und Termine",
+    "subtitle": "Treffen Sie Ihr KI-Team. 24/7 Support. Nahtlose CRM-Synchronisation. Mehr Termine vereinbaren. Mehr Abschlüsse erzielen.",
+    "cta": {
+      "demo": "🚀 Kostenlose Demo buchen",
+      "learn": "Erfahren Sie wie es funktioniert"
+    }
+  },
+  "trust": {
+    "title": "Vertraut von Startups, Agenturen und Unternehmensteams"
+  },
+  "features": {
+    "title": "Was wir automatisieren",
+    "support": {
+      "title": "KI-gestützter Kundensupport",
+      "description": "Sofortige Antworten, rund um die Uhr. Unsere KI kümmert sich um FAQs, Eskalationen und mehr."
+    },
+    "crm": {
+      "title": "CRM-Integrationen",
+      "description": "Wir verbinden uns mit HubSpot, Salesforce, Notion, Airtable und synchronisieren Daten sofort."
+    },
+    "appointments": {
+      "title": "Terminvereinbarung",
+      "description": "Kaltakquise, Follow-ups und Buchungen – alles automatisiert durch Ihren KI-Assistenten."
+    }
+  },
+  "testimonials": {
+    "title": "Echte Ergebnisse von echten Unternehmen"
+  },
+  "process": {
+    "title": "So funktioniert's",
+    "steps": {
+      "1": {
+        "title": "Buchen Sie einen kostenlosen Strategieanruf",
+        "description": "Wir verstehen Ihre Bedürfnisse und erstellen einen maßgeschneiderten Automatisierungsplan."
+      },
+      "2": {
+        "title": "Wir erstellen Ihren KI-Flow",
+        "description": "Unsere Experten konfigurieren und trainieren Ihre KI-Systeme für optimale Leistung."
+      },
+      "3": {
+        "title": "Integration in Ihr CRM",
+        "description": "Nahtlose Verbindung mit Ihren bestehenden Tools und Workflows."
+      },
+      "4": {
+        "title": "Wachsen Sie, während die KI den Rest erledigt",
+        "description": "Konzentrieren Sie sich auf Wachstum, während die KI die Routineaufgaben verwaltet."
+      }
+    }
+  },
+  "cta": {
+    "title": "Bereit, intelligenter zu skalieren?",
+    "subtitle": "Lassen Sie uns 80% Ihrer Routinearbeit automatisieren — kostenlos.",
+    "description": "Buchen Sie Ihr Erstgespräch und erhalten Sie einen maßgeschneiderten KI-Automatisierungsplan.",
+    "button": "🔮 Meinen kostenlosen KI-Plan erhalten"
+  },
+  "footer": {
+    "copyright": "© 2025 AutonomX Group. Alle Rechte vorbehalten."
+  }
+}

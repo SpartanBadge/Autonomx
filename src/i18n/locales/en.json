@@ -1,0 +1,63 @@
+{
+  "hero": {
+    "title": "MAKE YOUR BUSINESS MORE EFFICIENT WITH AI",
+    "subtitle": "-I'm Martin Mészárics - AI Automation Specialist",
+    "description": "-I work with businesses to grow and maximize their revenue by leveraging the power of AI",
+    "cta": {
+      "demo": "🚀 Book a Free Demo",
+      "learn": "Learn How It Works"
+    }
+  },
+  "trust": {
+    "title": "Trusted by startups, agencies, and enterprise teams"
+  },
+  "features": {
+    "title": "Make your business better with: ",
+    "support": {
+      "title": "AI AGENTS",
+      "description": "Instant replies 24/7. -Our AI handles -FAQs, -Knowledge base Prompting escalations, and more."
+    
+    },
+    "crm": {
+      "title": "Lead capture and CRM Integrations",
+      "description": "Collect customer information with AI and store them into a CRM. Manage and analyze your leads to communicate efficiently with your future customers. "
+    },
+    "appointments": {
+      "title": "Appointment Setting",
+      "description": "Cold outreach, follow-ups, and bookings—all automated by your AI assistant."
+    }
+  },
+  "testimonials": {
+    "title": "Real Results from Real Businesses"
+  },
+  "process": {
+    "title": "How It Works",
+    "steps": {
+      "1": {
+        "title": "Book a Free Strategy Call",
+        "description": "We'll understand your needs and design a custom automation plan."
+      },
+      "2": {
+        "title": "We Build Your custom AI agent",
+        "description": "Our experts train and configure your AI agents, tailored precisely to your needs."
+      },
+      "3": {
+        "title": "Integrate into Your Website",
+        "description": "We ensure smooth and effortless integration of the AI agent into your website."
+      },
+      "4": {
+        "title": "Scale While AI Handles the Rest",
+        "description": "Focus on growth while AI manages the routine tasks."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready to Scale Smarter?",
+    "subtitle": "Let's automate 80% of your busywork.",
+    "description": "Book your strategy call and get a custom AI automation plan.",
+    "button": "🔮 Get My Free AI Plan"
+  },
+  "footer": {
+    "copyright": "© 2025 AutonomX Group. All rights reserved."
+  }
+}

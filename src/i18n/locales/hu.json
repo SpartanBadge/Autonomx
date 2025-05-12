@@ -1,0 +1,209 @@
+{
+  "hero": {
+    "title": "TEGYE HATÉKONYABBÁ VÁLLALKOZÁSÁT AI-VAL",
+    "subtitle": "Mészárics Martin vagyok - AI Automatizálási Specialista",
+    "description": "Vállalkozásokkal dolgozom együtt, hogy növeljék és maximalizálják bevételeiket a mesterséges intelligencia erejének kihasználásával",
+    "cta": {
+      "demo": "🚀 Ingyenes bemutató foglalása",
+      "learn": "Ismerje meg, hogyan működik"
+    }
+  },
+  "trust": {
+    "title": "Startupok, ügynökségek és vállalati csapatok által használva"
+  },
+  "features": {
+    "title": "Tegye jobbá vállalkozását ezekkel:",
+    "support": {
+      "title": "AI ÜGYNÖKÖK",
+      "description": "Azonnali válaszok 24/7. Mesterséges intelligenciánk kezeli a gyakori kérdéseket, tudásbázis-lekérdezéseket és eszkalációkat."
+    },
+    "crm": {
+      "title": "Lead gyűjtés és CRM integrációk",
+      "description": "Gyűjtsön ügyfél információkat mesterséges intelligenciával és tárolja CRM rendszerben. Kezelje és elemezze lehetőségeit a hatékony kommunikációért."
+    },
+    "appointments": {
+      "title": "Időpontfoglalás",
+      "description": "Új megkeresések, követések és foglalások – mind automatizálva az AI asszisztensével."
+    }
+  },
+  "aiAgents": {
+    "hero": {
+      "title": "Ismerje meg új okos AI ügynökeit",
+      "description": "Automatizálja az ügyfélszolgálatot, értékesítést és onboardingot intelligens virtuális ügynökökkel."
+    },
+    "whatAre": {
+      "title": "Mik az AI ügynökök?",
+      "description": "Az AI ügynökök olyan okos virtuális asszisztensek, amelyeket az Ön vállalkozásának specifikus feladataira tanítottak be. Képesek kérdéseket megválaszolni, műveleteket végrehajtani, felhasználókat onboardolni, lehetőségeket minősíteni és akár üzleteket is kötni - mindezt emberi felügyelet nélkül."
+    },
+    "features": {
+      "title": "Okosabb, mint egy egyszerű chatbot",
+      "items": [
+        "Természetes nyelv és kontextus megértése",
+        "Integráció a weboldalával",
+        "Többcsatornás (chat, email, üzenetek)",
+        "Tanul és fejlődik idővel",
+        "Teljesen testreszabható munkafolyamatok"
+      ]
+    },
+    "applications": {
+      "title": "Minden üzleti funkcióra építve",
+      "description": "Az ügyfélszolgálat automatizálásától az értékesítés növeléséig, AI ügynökeink sokoldalúak és rendkívül alkalmazkodóképesek.",
+      "items": {
+        "support": {
+          "name": "Ügyfélszolgálat",
+          "description": "AI-vezérelt támogatási ügynökök 24/7 elérhetőséggel"
+        },
+        "sales": {
+          "name": "Értékesítés",
+          "description": "Automatizált lead minősítés és gondozás"
+        },
+        "hr": {
+          "name": "HR",
+          "description": "Egyszerűsített toborzás és onboarding folyamatok"
+        },
+        "admin": {
+          "name": "Adminisztráció",
+          "description": "Automatizált adminisztratív feladatok és munkafolyamatok"
+        }
+      }
+    },
+    "testimonial": {
+      "quote": "Az AI ügynökök forradalmasították az ügyfélszolgálatunkat. A megkeresések 80%-át automatikusan kezelik, és csapatunk a komplex esetekre koncentrálhat. A megtérülés hihetetlen.",
+      "author": "Michael Chen",
+      "role": "Ügyfélélmény Igazgató"
+    },
+    "faq": {
+      "title": "Gyakran Ismételt Kérdések",
+      "items": [
+        {
+          "question": "Milyen gyorsan tanulják meg az AI ügynökök a vállalkozásomat?",
+          "answer": "AI ügynökeink napok alatt betaníthatók az Ön üzleti folyamataira, tanulva a dokumentációból, weboldalból és specifikus követelményekből."
+        },
+        {
+          "question": "Kezelhetnek az AI ügynökök összetett ügyfélkéréseket?",
+          "answer": "Igen! AI ügynökeink fejlett természetes nyelvfeldolgozást használnak a kontextus megértéséhez, többlépéses beszélgetések kezeléséhez és intelligens döntéshozatalhoz."
+        },
+        {
+          "question": "Hogyan integrálódnak a meglévő rendszerekkel?",
+          "answer": "Zökkenőmentes integrációt biztosítunk népszerű CRM rendszerekkel, meglévő weboldalakkal és kommunikációs platformokkal. Egyedi integrációk is elérhetők."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Csatlakozzon egy AI ügynök a csapatához",
+      "description": "Kezdje el használni az intelligens ügynököket, akik tényleg elvégzik a munkát.",
+      "button": "Kérje ingyenes AI tervét"
+    }
+  },
+  "aiPhoneCaller": {
+    "hero": {
+      "title": "AI Telefonos Asszisztensek, Akik Önnek Dolgoznak",
+      "description": "Automatizálja az ügyfélhívásokat emberi hangon beszélő és értő AI-val."
+    },
+    "whatIs": {
+      "title": "Mik az AI Telefonos Hívók?",
+      "description": "AI Telefonos Hívóink fejlett virtuális ügynökök, akik az Ön vállalkozása nevében kezdeményeznek és fogadnak hívásokat. Természetesen beszélnek, értik a beszélgetéseket és intézkednek – legyen szó időpontok megerősítéséről, kérdések megválaszolásáról vagy információgyűjtésről."
+    },
+    "demo": {
+      "title": "Kérjen Demo Hívást",
+      "description": "Tapasztalja meg AI-nkat akcióban",
+      "inputLabel": "Adja meg telefonszámát és az AI asszisztensünk azonnal felhívja Önt",
+      "button": "Demo Hívás Kérése",
+      "success": "Demo Hívás Ütemezve!",
+      "successMessage": "Hamarosan fogadni fogja a demo hívást AI asszisztensünktől."
+    },
+    "benefits": {
+      "title": "Miért szeretik a vállalkozások az AI hívóinkat",
+      "items": [
+        "24/7 elérhetőség – soha nem marad le egyetlen hívásról sem",
+        "Skálázható – kezeljen 10 vagy 10,000 hívást",
+        "Költséghatékony – nincs szükség nagy hívóközpontos csapatra",
+        "Többnyelvű támogatás",
+        "Személyre szabott beszélgetési forgatókönyvek"
+      ]
+    }
+  },
+  "process": {
+    "title": "Hogyan működik",
+    "steps": {
+      "1": {
+        "title": "Foglaljon ingyenes stratégiai hívást",
+        "description": "Megértjük igényeit és egyedi automatizálási tervet készítünk."
+      },
+      "2": {
+        "title": "Felépítjük az egyedi AI ügynökét",
+        "description": "Szakértőink betanítják és konfigurálják AI ügynökeit, pontosan az Ön igényeire szabva."
+      },
+      "3": {
+        "title": "Integráljuk a weboldalába",
+        "description": "Biztosítjuk az AI ügynök zökkenőmentes és egyszerű integrációját weboldalába."
+      },
+      "4": {
+        "title": "Növekedjen, míg az AI kezeli a többit",
+        "description": "Fókuszáljon a növekedésre, míg az AI kezeli a rutinfeladatokat."
+      }
+    }
+  },
+  "cta": {
+    "title": "Készen áll az okosabb növekedésre?",
+    "subtitle": "Automatizáljuk rutinmunkája 80%-át.",
+    "description": "Foglaljon stratégiai hívást és kapjon egyedi AI automatizálási tervet.",
+    "button": "🔮 Kérem az ingyenes AI tervemet"
+  },
+  "footer": {
+    "copyright": "© 2025 AutonomX Group. Minden jog fenntartva.",
+    "menu": {
+      "products": "Termékek",
+      "aiPhoneCaller": "AI Telefonos Asszisztens",
+      "aiAgents": "AI Ügynökök",
+      "website": "Weboldal & App Készítés",
+      "social": "Social Media & Ügyfélszerzés",
+      "visual": "Vizuális Tartalom Csomag",
+      "strategy": "Stratégiai Hívások",
+      "scale": "Gyors Növekedés",
+      "prices": "Árak",
+      "contact": "Kapcsolat"
+    }
+  },
+  "websiteApp": {
+    "hero": {
+      "title": "Az Ön weboldala és mobilalkalmazása - Győzelemre tervezve",
+      "description": "Modern, gyors és gyönyörűen tervezett weboldalak és alkalmazások, amelyek látogatókat ügyfelekké alakítanak."
+    },
+    "overview": {
+      "title": "Minden, ami az induláshoz kell",
+      "description": "Az ötlettől a megvalósításig erőteljes weboldalakat és mobilalkalmazásokat hozunk létre, amelyek minden eszközön tökéletesen működnek.",
+      "services": {
+        "design": "UI/UX Tervezés",
+        "development": "Fejlesztés",
+        "seo": "Keresőoptimalizálás",
+        "testing": "Tesztelés"
+      }
+    },
+    "features": {
+      "title": "Eredményekre tervezve",
+      "items": {
+        "performance": "Villámgyors teljesítmény",
+        "responsive": "Teljesen reszponzív és mobilbarát",
+        "seo": "SEO-optimalizált láthatóság",
+        "integration": "Analitika és CRM integráció",
+        "tech": "A legújabb technológiákkal építve"
+      }
+    }
+  },
+  "visualContent": {
+    "hero": {
+      "title": "Prémium vizuális tartalom, amely megragadja a figyelmet",
+      "description": "A lenyűgöző termékfotóktól a figyelemfelkeltő videós hirdetésekig - segítünk kitűnni minden platformon."
+    },
+    "services": {
+      "title": "Prémium vizuális megoldások",
+      "items": {
+        "images": "Prémium termékfotók",
+        "ads": "Közösségi média hirdetések készítése",
+        "videos": "Rövid promóciós videók",
+        "brand": "Vizuális márka tervezés"
+      }
+    }
+  }
+}
