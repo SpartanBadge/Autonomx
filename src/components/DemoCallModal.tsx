@@ -34,7 +34,7 @@ export const DemoCallModal = ({ isOpen, onClose }: DemoCallModalProps) => {
               <CheckCircle2 className="w-10 h-10 text-primary-glow" />
             </div>
 
-            <h2 className="text-2xl font-bold mb-4">{t('demo.success')}</h2>
+            <h2 className="text-2xl font-bold mb-4">{t('Demo Call')}</h2>
             
             <p className="text-lg text-gray-300 mb-6">
               Thank you for trying our AI Assistant! Our dental office assistant will call you shortly. .
