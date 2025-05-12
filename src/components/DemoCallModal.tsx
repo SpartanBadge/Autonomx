@@ -37,8 +37,15 @@ export const DemoCallModal = ({ isOpen, onClose }: DemoCallModalProps) => {
             <h2 className="text-2xl font-bold mb-4">{t('demo.success')}</h2>
             
             <p className="text-lg text-gray-300 mb-6">
-              {t('demo.successMessage')}
+              Thank you for trying our AI Assistant! We'll be calling you shortly for your demo.
             </p>
+            
+            <div className="space-y-4 w-full">
+              <div className="p-4 rounded-lg bg-white/5 border border-white/10">
+                <p className="text-sm text-gray-400">What's next?</p>
+                <p className="text-white">Our AI Assistant will call you within the next few minutes to demonstrate our technology.</p>
+              </div>
+            </div>
 
             <Button
               variant="secondary"
