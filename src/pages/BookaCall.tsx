@@ -124,7 +124,7 @@ function ContactForm() {
           email: formData.email,
           services: selectedServices,
           company_name: formData.companyName,
-          company_website: websiteUrl,
+          company_website: formData.companyWebsite,
           selected_date: formData.selectedDate,
           selected_time: formData.selectedTime,
           description: formData.description,
@@ -243,14 +243,14 @@ function ContactForm() {
                 Company Website
               </label>
               <input
-                type="url"
+                type="text"
                 id="companyWebsite"
                 name="companyWebsite"
                 required
                 value={formData.companyWebsite}
                 onChange={handleChange}
                 className="w-full px-4 py-2 rounded-lg bg-white/10 border border-white/20 focus:border-primary-glow text-white"
-                placeholder="your-company.com"
+                placeholder="Company website"
               />
             </div>
 
