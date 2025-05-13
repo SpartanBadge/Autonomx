@@ -90,8 +90,8 @@ const PricingPage = () => {
           </motion.div>
         </div>
       </section>
-
-      {/* Monthly Tools Table */}
+{/*
+   montly tools table
       <section className="py-20 px-4 bg-black/50">
         <div className="container mx-auto max-w-4xl">
           <h2 className="text-3xl font-bold text-center mb-12">Motnhly subscription prices: </h2>
@@ -125,7 +125,7 @@ const PricingPage = () => {
           </motion.div>
         </div>
       </section>
-
+*/}
       {/* CTA Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-3xl text-center">
