@@ -164,8 +164,8 @@ function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Testimonials Section */}
+      
+      { /* Testimonials Section 
       <section id="testimonials" className="py-20 px-4 bg-black/50 fade-in">
         <div className="container mx-auto">
           <AnimatedHeadline>
@@ -185,7 +185,7 @@ function HomePage() {
           </div>
         </div>
       </section>
-
+      */}
       {/* Process Section */}
       <section id="process" className="py-20 px-4 fade-in">
         <div className="container mx-auto">
