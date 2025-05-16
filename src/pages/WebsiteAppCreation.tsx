@@ -182,7 +182,7 @@ const WebsiteAppCreation = () => {
         </div>
       </section>
 
-      {/* Testimonial Section */}
+      {/* Testimonial Section 
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-4xl">
           <motion.div
@@ -199,7 +199,7 @@ const WebsiteAppCreation = () => {
           </motion.div>
         </div>
       </section>
-
+*/}
       {/* FAQ Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto max-w-3xl">
